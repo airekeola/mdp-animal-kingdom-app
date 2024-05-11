@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AnimalKingdomExplorer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.AnimalKingdomExplorer" parent="Base.Theme.AnimalKingdomExplorer">
+        <item name="colorPrimary">@color/material_theme_blue</item>
+<!--        <item name="colorOnPrimary">@android:color/white</item>-->
+<!--        <item name="android:textColorPrimary">@android:color/white</item>-->
+        <item name="actionBarTheme">@style/MyActionBarTheme</item>
+    </style>
+
+    <style name="MyActionBarTheme" parent="Widget.Material3.ActionBar.Solid">
+        <item name="android:background">@color/material_theme_blue</item>
+        <item name="android:titleTextColor">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+</resources>
