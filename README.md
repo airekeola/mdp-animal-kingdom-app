@@ -1,5 +1,5 @@
-# Animal Kingdom App
-#### A simple native android app.
+# MDB Animal Kingdom App by Abbas Irekeola
+#### This is an Android app for MDP assignment.
 
 #### Screenshots
 ![Dashboard screen](screenshots/dashboard.png)
